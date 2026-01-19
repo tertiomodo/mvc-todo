@@ -1,0 +1,93 @@
+:root {
+  --black: #444;
+  --white: #fff;
+  --green: #60ca8c;
+  --gray: #efefef;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: var(--black);
+  background-color: var(--gray);
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+#root {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 32px 16px;
+}
+
+.form {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.formInput {
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.submitButton,
+.deleteButton {
+  display: block;
+  margin-left: 8px;
+  padding: 8px 16px;
+  color: var(--white);
+  background-color: var(--green);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submitButton {
+  width: 150px;
+  font-size: 18px;
+}
+
+.deleteButton {
+  font-size: 16px;
+}
+
+.checkbox {
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.list {
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  padding: 10px 15px;
+  background-color: var(--white);
+  border-radius: 5px;
+}
+
+.input {
+  width: 100%;
+  padding: 9px;
+  word-break: break-word;
+  border-radius: 8px;
+  outline: none;
+}
